@@ -1,0 +1,92 @@
+html {
+  font-family: 'Montserrat';
+}
+
+.team h3 {
+  color: #e13e4f;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.team .team-row {
+  margin: auto;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+
+.team .team-row .team-member {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: auto;
+  margin-right: -4px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+  width: 33.333%;
+
+}
+
+.team .team-row .team-member img {
+  border-radius: 50%;
+  cursor: pointer;
+  max-width: 75%;
+  max-height: 10%;
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.1);
+}
+
+.team .team-row .team-member h4 {
+  color: #e13e4f;
+  text-transform: uppercase;
+}
+
+.team .team-profiles .team-profile {
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(239,239,239,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(239,239,239,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efefef',GradientType=1 ); /* IE6-9 */
+  width: 100%;
+-webkit-box-shadow:inset 2px 2px 5px 2px rgba(0,0,0,0.1);
+box-shadow:inset 2px 2px 5px 2px rgba(0,0,0,0.1);
+  position: relative;
+  max-height: 0;
+  overflow: hidden
+}
+
+.team-profile.active {
+  max-height: 2000px!important;
+   transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.team .team-profiles .team-profile .profile-content {
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.team .team-profiles .team-profile .profile-content .profile-text {
+  text-align: left;
+  width: 50%;
+}
+
+.team .team-profiles .team-profile .profile-content .profile-text h3 {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.team .team-profiles .team-profile .profile-content .profile-text h4 {
+  color: #e13e4f;
+}
+
+.team .team-profiles .profile-bottom {
+  background-color: #e13e4f;
+  bottom: 0;
+  height: 20px;
+  position: absolute;
+  width: 100%;
+}
